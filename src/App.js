@@ -1,12 +1,11 @@
 import React from 'react';
-
+import { AppConstext } from './context/contextApi';
 
 function App() {
   return (
-    <div className="App">
-     <h1 className="text-cyan-500">hello world</h1>
-     <div className="bg-red-600 text-lg">i am kansi</div>
-    </div>
+   <AppConstext>
+    <div className="bg-blue-400">app</div>
+   </AppConstext>
   );
 }
 
