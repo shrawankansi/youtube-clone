@@ -3,9 +3,9 @@ import { abbreviateNumber } from "js-abbreviation-number";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
-import VideoLength from "../shared/videoLength";
+import VideoLength from "../shared/videoLenght";
 
-const SuggestionVideoCard = ({ video }) => {
+const SuggestionVideoCard = ( { video }) => {
     return (
         <Link to={`/video/${video?.videoId}`}>
             <div className="flex mb-3">
