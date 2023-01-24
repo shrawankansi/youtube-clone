@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Header from ".  /components/Header";
+import Header from "./components/Header";
 import Feed from "./components/Feed";
 import SearchResults from "./components/SearchResults";
 import VideoDetails from "./components/VideoDetails";
