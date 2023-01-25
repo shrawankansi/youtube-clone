@@ -22,8 +22,7 @@ const Header = () => {
 
     const searchQueryHandler = (event) => {
         if (
-            (event?.key === "Enter" || event === "searchButton") &&
-            searchQuery?.length > 0
+            (event?.key === "Enter" || event === "searchButton") && searchQuery?.length > 0
         ) {
             navigate(`/searchResult/${searchQuery}`);
         }
@@ -48,7 +47,7 @@ const Header = () => {
                     >
                         {mobileMenu ? (
                             <CgClose className="text-white text-xl" />
-                        ) : (
+                         ) : (
                             <SlMenu className="text-white text-xl" />
                         )}
                     </div>
